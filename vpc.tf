@@ -5,5 +5,4 @@ resource "aws_vpc" "main" {
   tags = {
     Name = "robot-vpc-${ENV}"
   }
-
 }
